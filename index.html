@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <!-- Enlazo el archivo CSS para darle estilo a la página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <!-- Aquí pongo los links de las aplicaciones de Google -->
+            <div class="header-links">
+                <div class="header-link" id="google-apps">
+                    <img src="imagenes/apps.png" alt="Google Apps" class="icon">
+                    <div class="apps-menu" id="apps-menu">
+                        <!-- Menú desplegable con enlaces a las apps -->
+                        <a href="https://mail.google.com/" target="_blank" class="menu-item">Gmail</a>
+                        <a href="https://images.google.com/" target="_blank" class="menu-item">Imágenes</a>
+                        <a href="https://drive.google.com/" target="_blank" class="menu-item">Drive</a>
+                    </div>
+                </div>
+                <!-- Enlaces directos a Gmail, Imágenes y Perfil -->
+                <a href="https://mail.google.com/" target="_blank" class="header-link">
+                    <img src="https://ssl.gstatic.com/images/branding/product/2x/gmail_48dp.png" alt="Gmail" class="icon">
+                </a>
+                <a href="https://images.google.com/" target="_blank" class="header-link">
+                    <img src="https://ssl.gstatic.com/images/branding/product/2x/photos_48dp.png" alt="Imágenes" class="icon">
+                </a>
+                <a href="https://myaccount.google.com/" target="_blank" class="header-link" id="profile-link">
+                    <img src="imagenes/WhatsApp Image 2024-08-26 at 1.38.04 PM (1).jpeg" alt="Perfil" class="icon">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <!-- Logo principal de Google en la página -->
+        <div class="main-logo">
+            <a href="https://www.google.com">
+                <img src="imagenes/logo google.png" alt="Google Logo" class="logo main-logo-image">
+            </a>
+        </div>
+        <!-- Formulario de búsqueda -->
+        <form class="search-form" id="search-form">
+            <input type="text" class="search-bar" id="search-bar" placeholder="Busque lo que quiera">
+            <div class="buttons">
+                <!-- Botones para buscar y el "Voy a tener suerte" -->
+                <button type="submit" class="search-button">Buscar con Google</button>
+                <button type="button" class="lucky-button">Voy a tener suerte</button>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <!-- Links de información en el pie de página -->
+        <div class="footer-links">
+            <a href="#">Sobre Google</a>
+            <a href="#">Publicidad</a>
+            <a href="#">Negocios</a>
+            <a href="#">Cómo funciona la Búsqueda</a>
+        </div>
+        <!-- Info extra como copyright y mi nombre -->
+        <div class="footer-info">
+            <span>Trabajo Tecnolochicas</span>
+            <span>&copy; 2024 Google-Alondra Daniela Flores Albarrán</span>
+        </div>
+    </footer>
+    <!-- Aquí enlazo el archivo JavaScript para darle funcionalidad -->
+    <script src="script.js"></script>
+</body>
+</html>
